@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping</title>
+    <link rel="stylesheet" href="./node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <style>
+        .brand-name {
+            font-size: 25px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .item {
+            font-size: 20px;
+            font-weight: bold;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .item span {
+            margin-left: 20px;
+        }
+
+        .item:hover {
+            cursor: pointer;
+        }
+
+        .icon span {
+            margin-left: 30px;
+        }
+
+        .icon:hover {
+            cursor: pointer;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 0px 5px 12px rgba(33, 24, 24, 0.686);
+            background-color: rgb(5, 136, 141);
+            color: whitesmoke;
+            padding: 20px;
+        }
+
+        .brand {
+            margin-top: 18px;
+            padding: 10px;
+            background-color: rgb(178, 189, 190);
+            color: rgb(255, 2, 2);
+            font-size: 28px;
+            font-weight: bolder;
+            text-align: center;
+            letter-spacing: 10px;
+            box-shadow: 0px 5px 10px black;
+            border-radius: 5px;
+            text-shadow: 2px 0px 3px rgb(34, 25, 25);
+        }
+
+        .men {
+            background-image: url("./public/Images/men.jpg");
+            background-size: cover;
+            width: 533px;
+            height: 533px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .women {
+            background-image: url("./public/Images/women.jpg");
+            background-size: cover;
+            width: 533px;
+            height: 533px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .kids {
+            background-image: url("./public/Images/kid.jpg");
+            background-size: cover;
+            width: 533px;
+            height: 533px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .model {
+            display: flex;
+        }
+
+        .model {
+            margin-top: 25px;
+        }
+
+        h1 {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 60px;
+            color: white;
+            text-shadow: 0px 5px 8px black;
+            margin-top: 300px;
+        }
+
+        button {
+            background-color: rgb(255, 9, 9);
+            color: rgb(255, 255, 255);
+            padding: 10px;
+            height: 35px;
+            width: 120px;
+            border: none;
+        }
+
+
+        .main {
+            text-align: center;
+            background-color: rgb(120, 120, 214);
+            color: white;
+            padding: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+
+        .col {
+            background-color: rgb(57, 57, 92);
+            color: whitesmoke;
+            display: grid;
+            grid-template-columns: 3fr 3fr 3fr 3fr;
+            padding: 20px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .title {
+            margin-bottom: 25px;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: Arial;
+        }
+
+        .col div {
+            margin-bottom: 6px;
+        }
+
+        .social {
+            background-color: rgb(57, 57, 92);
+            color: whitesmoke;
+            padding: 0px 0px 10px 730px;
+        }
+
+        footer {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+
+        <div class="brand-name">Shopper.</div>
+
+        <div class="item">
+            <span>Home</span>
+            <span>Catalog</span>
+            <span>Shop</span>
+            <span>Blog</span>
+            <span>Pages</span>
+            <span>Docs</span>
+        </div>
+
+        <!-- <div>
+            <details>
+                <summary>info</summary>
+                <dl>
+                    <dd>return</dd>
+                    <dd>Glob</dd>
+                    <dd>Term</dd>
+                    <dd>condition</dd>
+                </dl>
+            </details>
+        </div> -->
+
+        <div class="icon">
+            <span class="bi bi-search"></span>
+            <span class="bi bi-person"></span>
+            <span class="bi bi-heart"></span>
+            <span class="bi bi-cart"></span>
+        </div>
+
+    </header>
+
+    <div class="brand">
+        HAPPY HOLIDAY SALES
+    </div>
+
+    <div class="model">
+
+        <div class="men">
+            <div>
+                <h1>Men</h1>
+            </div>
+            <div>
+                <button>shop men</button>
+            </div>
+        </div>
+
+        <div class="women">
+            <div>
+                <h1>women</h1>
+            </div>
+            <div>
+                <button>shop women</button>
+            </div>
+        </div>
+
+        <div class="kids">
+            <div>
+                <h1>kids</h1>
+            </div>
+            <div>
+                <button>shop kids</button>
+            </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="main">
+            Back to top
+        </div>
+
+        <div class="col">
+            <div>
+                <div class="title">Get to know Us</div>
+                <div>About us</div>
+                <div>Careers</div>
+                <div>press Releases</div>
+                <div>Amazone Cares</div>
+                <div>Gift a smile</div>
+                <div>Amazone Science</div>
+            </div>
+
+            <div>
+                <div class="title">Connect with Us</div>
+                <div>Facebook</div>
+                <div>Twitter</div>
+                <div>Instagram</div>
+            </div>
+
+            <div>
+                <div class="title">Make money with Us</div>
+                <div>sell on amazone</div>
+                <div>sell under amazone Accelaretor</div>
+                <div>Amazone global selling</div>
+                <div>Become an Affiliate</div>
+                <div>Fulfilment by Amazone</div>
+                <div>Advertise Your product</div>
+                <div>Amazone pay on Merchants</div>
+            </div>
+
+            <div>
+                <div class="title">Let us Help You</div>
+                <div>COVID-19 and Amazone</div>
+                <div>Your account</div>
+                <div>Returns center</div>
+                <div>100% purchase protection</div>
+                <div>Amazone app Download</div>
+                <div>Amazone Assistant Download</div>
+                <div>Help</div>
+            </div>
+
+        </div>
+
+        <div class="social">
+            <span class="bi bi-facebook"></span>
+            <span class="bi bi-twitter"></span>
+            <span class="bi bi-youtube"></span>
+            <span class="bi bi-instagram"></span>
+
+        </div>
+    </footer>
+
+</body>
+
+</html>
